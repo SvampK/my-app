@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm run api`
+to start a json server at port 4000;
+open [http://localhost:4000] to view the json data structure
+
 ### `npm start`
 
 Runs the app in the development mode.\
