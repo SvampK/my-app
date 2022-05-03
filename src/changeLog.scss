@@ -1,0 +1,61 @@
+@import "./index.scss";
+
+.changelog-main-container {
+    margin: 3em auto;
+    width: 80%;
+
+    p {
+        font-size: $text-font-size;
+        color: $dark-gray;
+    }
+
+    .subtitle {
+        color: $sub-title-gray;
+    }
+
+    .text {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .changes-container {
+        border: 2px solid $border-gray;
+        border-radius: 15px;
+        padding: 1em;
+
+    }
+
+    .more-author-text {
+        font-size: 1em;
+    }
+
+    button {
+        background: none !important;
+        border: none;
+        padding: 0 !important;
+        font-size: 1em;
+        color: #069;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .i {
+        font-size: 1 em;
+    }
+
+}
+
+.bottom-rapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+    .bottom-rapper {
+        display: block;
+        justify-content: flex-start;
+
+    }
+
+}
