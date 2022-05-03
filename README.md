@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 ### `npm run api`
 to start a json server at port 4000;
-open [http://localhost:4000] to view the json data structure
+open [http://localhost:4000/issues] to view the json data structure
 
 ### `npm start`
 
